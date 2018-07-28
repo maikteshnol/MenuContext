@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Menu Contextual</title>
+</head>
+<body>
+    <div class="pos-f-t" style="position: absolute;overflow: hidden;width: 100%;">
+            <div class="collapse"id="navbarToggleExternalContent">
+                <div class="navColapseView p-4">
+                    <h4 class="title_TextView">Developers Software</h4>
+                    <span class="subttitle_TextView">MaikTeshnol</span>
+                </div>
+            </div>
+            <nav class="navbar navFoundColor">
+                <button class="navbar-toggler butonActeon"type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-bars" style="color: rgb(255, 255, 255);"></span>
+                </button>
+            </nav>
+    </div>
+    <div class="containerMainRightClick" oncontextmenu="return showViewItemsMenu(event);">
+        <div id="contextMenu" class="contextmenuLisView">
+            <ul>
+                <li><span class="fas fa-edit"style="font-size: 16px; color: rgb(0, 216, 205);"></span> Edit List</li>
+                <li><span class="fas fa-pencil-alt"style="font-size: 16px; color: rgb(0, 216, 205);"></span> Create Registry</li>
+                <li><span class="fas fa-search"style="font-size: 16px; color: rgb(0, 216, 205);"></span> Search</li>
+                <li><span class="far fa-trash-alt"style="font-size: 16px; color: rgb(0, 216, 205);"></span> Remove</li>
+                <li><span class="far fa-copy"style="font-size: 16px; color: rgb(0, 216, 205);"></span> Make Backup</li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/functionsMain.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome-all.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+node_modules
+.vscode
+src/css
+src/js/jquery.min.js
+src/js/fontawesome-all.js
+src/js/bootstrap.min.js
+gulpfile.js
+package-lock.json
+package.json
